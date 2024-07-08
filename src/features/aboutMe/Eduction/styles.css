@@ -1,0 +1,197 @@
+/* Existing CSS */
+
+.timeline-item.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.timeline h4 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #ff6;
+}
+
+.timeline h5 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+body {
+  background-color: #1b1b1b !important;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.timeline {
+  position: relative;
+  width: 80%;
+  padding: 20px 0;
+  margin: 20px auto;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  width: 4px;
+  height: 80%;
+  background: #ffffff;
+  transform: translateX(-50%);
+}
+
+.timeline-line2 {
+  height: 85%;
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  background: linear-gradient(to bottom, rgb(255, 0, 102), #ffb, rgb(51, 255, 0));
+  transform: translateX(-50%);
+  transition: height 0.5s ease-in-out;
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  margin: 20px 0;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease-in-out;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.timeline-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+}
+
+.timeline-icon {
+  position: absolute;
+  top: 150px;
+  left: 100%;
+  width: 60px;
+  height: 60px;
+  /* background: #ff4081; */
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-icon img {
+  width: 100%;
+}
+
+.year {
+  position: absolute;
+  top: 150px;
+  width: 150px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.year h3 {
+  font-size: 18px;
+  font-family: "Salsa", cursive;
+  color: #87ec83;
+}
+
+.timeline-item:nth-child(even) .timeline-icon {
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.timeline-item:nth-child(even) .year {
+  left: -10%;
+  transform: translateX(-100%);
+  text-align: right;
+}
+
+.timeline-item:nth-child(odd) .year {
+  right: -10%;
+  transform: translateX(100%);
+  text-align: left;
+}
+
+.timeline-content {
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: inline-block;
+  border: 1px solid #034600;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timeline-content h2 {
+  margin: 0 0 10px 0;
+  font-size: 25px;
+  font-family: "Salsa", cursive;
+  color: #87ec83;
+  text-decoration: underline dotted #b5c0f3;
+  text-decoration-thickness: 2px;
+  /* Optional: to adjust the thickness of the underline */
+  text-underline-offset: 10px;
+  line-height: 40px;
+}
+
+.timeline-topices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timeline-content .timeline-topices ul li {
+  margin: 0;
+  font-size: 14px !important;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  font-weight: 300;
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+  margin-right: 70px;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  margin-left: 70px;
+}
+
+/* Arrow style */
+
+.timeline-item::after {
+  content: "";
+  position: absolute;
+  top: 175px;
+  transform: translateY(-50%);
+  border-style: solid;
+}
+
+.timeline-item:nth-child(odd)::after {
+  right: 50px;
+  border-width: 20px 0 20px 20px;
+  border-color: transparent transparent transparent #034600;
+}
+
+.timeline-item:nth-child(even)::after {
+  left: 50px;
+  border-width: 20px 20px 20px 0;
+  border-color: transparent #034600 transparent transparent;
+}
+

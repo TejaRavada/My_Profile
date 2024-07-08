@@ -1,0 +1,317 @@
+/* ProgressBar.css */
+.progress-container {
+    margin: 20px 0;
+    position: relative;
+}
+
+.progress-label {
+    margin-bottom: 5px;
+}
+
+.progress-bar-background {
+    background: #e0e0df;
+    border-radius: 4px;
+    height: 5px;
+    position: relative;
+    overflow: visible;
+}
+
+.progressbar {
+    background: #6aff65;
+    height: 100%;
+    transition: width 0.5s ease-out;
+    position: relative;
+}
+
+.progress-tooltip {
+    position: absolute;
+    top: -25px;
+    left: 100% !important;
+    background-color: #06a700;
+    color: #000;
+    font-weight: bold;
+    padding: 0px 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 1;
+    transform: translateX(-50%);
+    font-size: 12px;
+}
+
+.progress-tooltip::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #06a700;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.progress-tooltip .progress-arrow
+{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #06a700;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* hero */
+.hand {
+    animation: wave 2s infinite;
+    transform-origin: bottom center;
+    width: 50px;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(15deg);
+    }
+    50% {
+        transform: rotate(-15deg);
+    }
+    75% {
+        transform: rotate(15deg);
+    }
+}
+
+.About_hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding: 200px 0px 100px 0px;
+}
+
+.About_hero h6
+{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 200;
+    color: #faebd7;
+}
+
+.About_hero .About_name 
+{
+    margin: 20px 0px;
+}
+.About_hero .About_name h6 span
+{
+    font-size: 40px;
+    font-family: "Salsa", cursive;
+    color: #87ec83;
+}
+
+.About_hero .About_name h5 span
+{
+    font-size: 40px;
+    color: #869cff;
+    font-weight: 400;
+}
+
+.About_hero h5
+{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 200;
+    color: #faebd7;
+}
+
+.About_hero p {
+    font-size: 20px;
+}
+
+.About_hero .About_icon
+{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.About_hero .About_icon p a
+{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.About_Social
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.About_Social p
+{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+.About_Social h4
+{
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.About_Icons
+{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.About_Icons p a svg
+{
+    font-size: 30px;
+}
+
+/*  */
+
+.About-right
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.About-right .About-Cricle
+{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.About-right .About-Cricle h2 a
+{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 35px !important;
+    color: #00071d !important;
+}
+/* topices */
+
+.About_Skills
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    margin: 200px 0px;
+}
+
+.About_Skills .items {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.About_Skills .items .topices
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+.About_Skills .items .topices h3
+{
+    font-size: 25px;
+    font-family: "Salsa", cursive;
+    color: #87ec83;
+}
+
+.About_Skills .items .topices .item {
+    font-size: 18px;
+    font-family: "Salsa", cursive;
+    width: 90%;
+    border: 1px solid #617fdd;
+    padding: 20px;
+    margin: 20px 0px;
+    background: #00071d;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 50px 0 0px 0;
+}
+
+/* info */
+
+.About_info
+{
+    margin: 100px 0px;
+    border-left: 10px solid #06a700;
+    padding-left: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.About_info::after
+{
+    position: absolute;
+    content: '';
+    border-left: 5px solid #87ec83;
+    padding-left: 30px;
+    height: 80%;
+    left: -5px;
+    bottom: 0;
+
+}
+
+.About_info .About_name 
+{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.About_info .About_name h6 span
+{
+    font-size: 30px;
+    font-family: "Salsa", cursive;
+    color: #87ec83;
+}
+
+.About_info .About_name h6
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 200;
+    color: #faebd7;
+}
+
+.About_info .info_Text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}

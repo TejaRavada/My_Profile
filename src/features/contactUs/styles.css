@@ -1,0 +1,74 @@
+.contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    height: 100vh;
+}
+
+.contact .contactFull
+{
+    display: flex;
+    width: 100%;
+}
+
+.contact .contactFull .contact_Left
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.contact .contactFull .contact_Left h2
+{
+    font-family: "Poetsen One", sans-serif;
+}
+
+.contact .contactFull .contact_Left .contact_head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 0px;
+}
+
+.contact .contactFull .contact_Left
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .contactFull .contact_Left form
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    background: #00071d;
+    padding: 20px;
+}
+
+.contact .contactFull .contact_Left form input, textarea
+{
+    padding: 10px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #faebd7;
+    outline: none;
+    color: #faebd7;
+}
+
+.contact .contactFull .contact_Left form textarea
+{
+    padding: 10px;
+    background: none;
+    height: 150px;
+}

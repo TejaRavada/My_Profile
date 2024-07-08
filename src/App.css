@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Lilita+One&family=Madimi+One&family=Pacifico&family=Poetsen+One&family=Salsa&family=Titan+One&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+    color: #faebd7;
+
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #faebd7;
+    background-color: #1b1b1b;
+}
+
+a, ul, ul li, p{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    color: #faebd7;
+    text-align: justify;
+}
+
+.btn{
+    border: 1px solid #012fff ;
+    background: none;
+    text-transform: capitalize;
+    padding: 5px 20px !important;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0px;
+    width: max-content;
+    color: #faebd7;
+}
+
+.btn:hover{
+    border: 1px solid #06a700 ;
+    text-transform: capitalize;
+    background: #010b1a;
+    color: #c5c5c5;
+}
+
+.rightBtn{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.heading {
+    font-size: 30px;
+    text-decoration: underline dotted #012fff;
+    text-decoration-thickness: 2px; /* Optional: to adjust the thickness of the underline */
+    text-underline-offset: 10px; /* Adjust the value as needed */
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    color: #faebd7;
+}
+
+.box
+{
+    width: 20px;
+    height: 20px;
+    background: #06a700;
+}
+
+.activebtn
+{
+    border: 1px solid #06a700 ;
+    text-transform: capitalize;
+    background: #010b1a;
+    color: #c5c5c5;
+    padding: 5px 20px !important;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0px;
+    width: max-content;
+}

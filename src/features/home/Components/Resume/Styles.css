@@ -1,0 +1,325 @@
+.resume
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    overflow-y: auto;
+    margin: 50px 0px;
+}
+
+.resume .resu_part
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.resume .resu_part .re-inside
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.resume .resu_sum
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume .resu_sum .resu_Box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume .resu_sum .resu_Box .box_heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.resume .resu_sum .resu_Box .box_heading .resume_top
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.resume .resu_sum .resu_Box .box_heading .resume_top h2{
+    font-size: 25px;
+    text-decoration: underline dotted rgb(255, 0, 102);
+    text-decoration-thickness: 2px; /* Optional: to adjust the thickness of the underline */
+    text-underline-offset: 10px; /* Adjust the value as needed */
+    text-transform: lowercase;
+    font-family: "Salsa", cursive;
+    color: #faebd7;
+    text-align: left;
+    width: 100%;
+    color: #ff6;
+    margin-top: 30px;
+}
+
+.resume .resu_sum .resu_Box .box_heading .resume_top ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.resume .resu_sum .resu_Box .box_heading .resume_top ul li{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.resume .resu_sum .resu_Box .box_heading .resume_top table
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #ff6;
+    border-bottom: none;
+    border-right: none;
+    
+}
+
+.resume .resu_sum .resu_Box .box_heading .resume_top table thead
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resume .resu_sum .resu_Box .box_heading .resume_top table thead tr
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ff6;
+}
+
+.resume .resu_sum .resu_Box .box_heading .resume_top table thead tr th
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-right: 1px solid #ff6;
+}
+
+.resume .resu_sum .resu_Box .box_heading .resume_top table tbody
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resume .resu_sum .resu_Box .box_heading .resume_top table tbody tr
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.resume .resu_sum .resu_Box .box_heading .resume_top table tbody tr td
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ff6;
+    border-right: 1px solid #ff6;
+}
+
+.resume .resume_topices .project h2{
+    font-size: 25px;
+    text-decoration: underline dotted rgb(255, 0, 102);
+    text-decoration-thickness: 2px; /* Optional: to adjust the thickness of the underline */
+    text-underline-offset: 10px; /* Adjust the value as needed */
+    text-transform: lowercase;
+    font-family: "Salsa", cursive;
+    color: #faebd7;
+    text-align: left;
+    width: 100%;
+    color: #ff6;
+    margin-top: 30px;
+}
+
+.resume .resume_topices
+{
+    width: 100%;
+}
+
+.resume .resume_topices .project{
+    width: 100%;
+}
+
+.resume .resume_topices .project .project_Text
+{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.resume .resume_topices .project .project_Text h3{
+    font-size: 20px;
+    text-decoration: underline dotted rgb(255, 0, 102);
+    text-decoration-thickness: 2px; /* Optional: to adjust the thickness of the underline */
+    text-underline-offset: 10px; /* Adjust the value as needed */
+    text-transform: lowercase;
+    font-family: "Salsa", cursive;
+    color: #faebd7;
+    text-align: left;
+    width: 100%;
+    color: #87ec83;
+    margin-top: 30px;
+}
+
+.resume .resume_topices .project .project_Text .project_topices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+    width: 90%;
+    margin: 20px 0px;
+}
+
+.resume .resume_topices .project .project_Text .project_topices .project_sub{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.resume .resume_topices .project .project_Text .project_topices .project_sub h4{
+    display: flex;
+    font-family: "Salsa", cursive;
+    font-size: 18px;
+    width: 20%;
+}
+
+.resume .resume_topices .project .project_Text .project_topices .project_sub p{
+    display: flex;
+    font-size: 15px;
+    width: 80%;
+}
+
+.resume .resume_links
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resume .resume_links h2{
+    font-size: 25px;
+    text-decoration: underline dotted rgb(255, 0, 102);
+    text-decoration-thickness: 2px; /* Optional: to adjust the thickness of the underline */
+    text-underline-offset: 10px; /* Adjust the value as needed */
+    text-transform: lowercase;
+    font-family: "Salsa", cursive;
+    color: #faebd7;
+    text-align: left;
+    width: 100%;
+    color: #ff6;
+    margin-top: 30px;
+}
+
+.resume .resume_links .links_res
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.resume .resume_links .links_res ul
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.resume .resume_links .links_res table
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px 0px;
+    border: 1px solid #ff6;
+    border-top: none;
+    margin: 0px;
+    padding: 0px;
+    border-right: none;
+}
+
+.resume .resume_links .links_res table tbody
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.resume .resume_links .links_res table tbody tr
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.resume .resume_links .links_res table tbody tr td
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #ff6;
+    border-right: 1px solid #ff6;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+/*  */
