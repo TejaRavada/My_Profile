@@ -81,21 +81,21 @@ export const fetchProjectData = () => fetchData(
     FETCH_PROJECT_DATA_REQUEST,
     FETCH_PROJECT_DATA_SUCCESS,
     FETCH_PROJECT_DATA_FAILURE,
-    'https://myprofile-4fk9.onrender.com/ProjectData'
+    'https://myprofiledata.onrender.com/ProjectData'
 );
 
 export const fetchEducationData = () => fetchData(
     FETCH_EDUCATION_DATA_REQUEST,
     FETCH_EDUCATION_DATA_SUCCESS,
     FETCH_EDUCATION_DATA_FAILURE,
-    'https://myprofile-4fk9.onrender.com/education_Data'
+    'https://myprofiledata.onrender.com/education_Data'
 );
 
 export const fetchExperienceData = () => fetchData(
     FETCH_EXPERIENCE_DATA_REQUEST,
     FETCH_EXPERIENCE_DATA_SUCCESS,
     FETCH_EXPERIENCE_DATA_FAILURE,
-    'https://myprofile-4fk9.onrender.com/experince_Data'
+    'https://myprofiledata.onrender.com/experince_Data'
 );
 
 // Action Creator
