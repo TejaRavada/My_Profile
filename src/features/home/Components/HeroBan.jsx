@@ -40,8 +40,8 @@ const HeroBan = () => {
                             <h1>Teja Ravada</h1>
                             <h2>I'M a frontend developer</h2>
                             <div className="icons d-flex gap-3">
-                                <Link to="/"><GitHubIcon /></Link>
-                                <Link to="/"><LinkedInIcon /></Link>
+                                <Link to="https://github.com/TejaRavada" target="_blank" rel="noopener noreferrer"><GitHubIcon /></Link>
+                                <Link to="https://www.linkedin.com/in/teja-veera-277580318/" target="_blank" rel="noopener noreferrer"><LinkedInIcon /></Link>
                             </div>
 
                             <div className="links_Ban btnText d-flex justify-content-center w-100 gap-3 mb-5 mt-5">
