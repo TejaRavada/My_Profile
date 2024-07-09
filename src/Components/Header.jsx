@@ -73,7 +73,7 @@ const Header = () => {
                         </ul>
 
                         <ul className="nav-icons">
-                            <li><Link to="/"><GitHubIcon /></Link></li>
+                            <li><Link to="https://github.com/TejaRavada"><GitHubIcon /></Link></li>
                             <li><Link to="/"><LinkedInIcon /></Link></li>
                         </ul>
 
