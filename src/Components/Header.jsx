@@ -73,8 +73,8 @@ const Header = () => {
                         </ul>
 
                         <ul className="nav-icons">
-                            <li><Link to="https://github.com/TejaRavada"><GitHubIcon /></Link></li>
-                            <li><Link to="/"><LinkedInIcon /></Link></li>
+                            <li><Link to="https://github.com/TejaRavada" target="_blank" rel="noopener noreferrer"><GitHubIcon /></Link></li>
+                            <li><Link to="https://www.linkedin.com/in/teja-veera-277580318/" target="_blank" rel="noopener noreferrer"><LinkedInIcon /></Link></li>
                         </ul>
 
                         <div className="menu_mobile" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
