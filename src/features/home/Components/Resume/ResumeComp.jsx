@@ -21,10 +21,10 @@ const ResumeComp = () => {
             type: 'description',
             heading: 'SUMMARY',
             description: [
-                "Passionate and detail-oriented Front-End Developer with 2 years of experience specializing in building responsive, user-friendly web applications using React and Redux. Transitioned to front-end development after an 8-year career in 2D animation, bringing a unique blend of creative design skills and technical expertise to the role.",
-                "Having 8 years of experience in Creating, Designing and delivering Products in animation.",
-                "Involved in development of various e-learning projects for secondary schooling and Bio pic of Sri Jayatheertharu And Metro LTD, Nursery Rhymes.",
-                "Self-motivated, Creative, quick learner, willing to adapt new challenges & new technologies."
+                "Passionate UI/UX designer and frontend developer with 2 years of experience in creating visually appealing and user-friendly websites and applications. Proficient in HTML, CSS, JavaScript, React, and design tools like Figma and Adobe Illustrator. Adept at translating complex requirements into user-centered designs and functional web interfaces. Transitioned to UI/UX design and front-end development after a 7-year career in 2D animation, bringing a unique blend of creative design skills and technical expertise to the role. Recently learned full-stack Java development to expand my technical skill set.",
+                "UI/UX Design and Frontend Development: Developed and maintained responsive web applications using modern technologies. Collaborated with UI/UX designers to create seamless user experiences.",
+                "Animation and E-Learning Projects: Created, designed, and delivered products in animation, including e-learning projects for secondary schooling and biopics such as 'Bio pic of Sri Jayatheertharu' and 'Metro LTD,' as well as nursery rhymes.",
+                "Adaptability and Continuous Learning: Self-motivated, creative, and a quick learner. Willing to adapt to new challenges and technologies, continuously expanding knowledge in both design and development."
             ]
         },
         {
