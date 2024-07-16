@@ -31,6 +31,10 @@ const ResumeComp = () => {
             type: 'description',
             heading: 'ACADEMICSk',
             description: [
+                "Completed an intensive bootcamp focused on full-stack Java development, covering front-end technologies such as HTML, CSS, and JavaScript. Specialized in React, including state management with Context API and Redux, and routing with React Router. Gained experience in modern JavaScript (ES6+), asynchronous programming, and integrating RESTful APIs. Familiar with build tools like Webpack, Babel, and Vite, as well as version control with Git and GitHub. Focused on front-end testing with Jest and React Testing Library. Emphasized web performance optimization techniques, including lazy loading, code splitting, and tree shaking for efficient web applications.",
+                
+                "Reliance Big Aims, June 2012 - November 2013 -> Completed a comprehensive course in 2D animation, learning techniques in character design, storyboarding, and animation production. Worked on multiple projects, including e-learning materials and animated shorts.",
+
                 "Discontinued MBA 2nd year in RRS College Muthaiga, Hyderabad, Telangana, India.",
                 "B.Tech in CSC from Aligarh Muslim University, UP, India pass out in the 2012 with an aggregate of 76.5%.",
                 "Intermediate with the specialization of M.P.C from Sri Chaitanya Junior College at Eluru. Pass out in the year2008 with an aggregate of 61.1%.",
