@@ -11,7 +11,7 @@ const ResumeComp = () => {
             head: 'Curriculum Vitae'
         },
         {
-            num: 'Ravadateja123@gmail.com',
+            num: 'tejaveera19@gmail.com',
             head: 'VeeraTeja'
         }
     ]
@@ -111,7 +111,7 @@ const ResumeComp = () => {
                 {
                     Duration: 'September 2018 to March 2023',
                     Organization: 'Shrisansa Animstudio PVT.LTD Hyderabad',
-                    Role: '3D Animator'
+                    Role: ' 2D Animator, UI/UX Design, Front-End Developer'
                 }
             ]
         }

@@ -46,7 +46,7 @@
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
-    transform: rotate(5deg);
+    transform: rotate(4deg);
 }
 
 .hero_right .image-container::before {
