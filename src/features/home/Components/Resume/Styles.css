@@ -222,6 +222,7 @@
     gap: 10px;
     width: 100%;
     padding: 5px 0px;
+    flex-direction: column;
 }
 
 .resume .resume_topices .project .project_Text .project_topices .project_sub h4{
