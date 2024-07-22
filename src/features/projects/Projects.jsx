@@ -48,6 +48,22 @@ const Projects = () => {
         </div>
       </div>
       
+      <div className='Project container'>
+        <div className="project_sub">
+          <h2 className='heading'>real-Time Projects</h2>
+          <ul>
+            {
+              projectData && projectData.map(project => (
+                <li key={project.id}>
+                  <Link to={`/projects/${project.pro_name}`}>{project.pro_name}</Link>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+
+      
       <Contact/>
     </section>
   )
