@@ -31,7 +31,7 @@ const ResumeComp = () => {
             type: 'description',
             heading: 'ACADEMICSk',
             description: [
-                "Completed an intensive bootcamp focused on full-stack Java development, covering front-end technologies such as HTML, CSS, and JavaScript. Specialized in React, including state management with Context API and Redux, and routing with React Router. Gained experience in modern JavaScript (ES6+), asynchronous programming, and integrating RESTful APIs. Familiar with build tools like Webpack, Babel, and Vite, as well as version control with Git and GitHub. Focused on front-end testing with Jest and React Testing Library. Emphasized web performance optimization techniques, including lazy loading, code splitting, and tree shaking for efficient web applications.",
+                "Career Pedia, November 2023 - June 2024 -> Completed an intensive bootcamp focused on full-stack Java development, covering front-end technologies such as HTML, CSS, and JavaScript. Specialized in React, including state management with Context API and Redux, and routing with React Router. Gained experience in modern JavaScript (ES6+), asynchronous programming, and integrating RESTful APIs. Familiar with build tools like Webpack, Babel, and Vite, as well as version control with Git and GitHub. Focused on front-end testing with Jest and React Testing Library. Emphasized web performance optimization techniques, including lazy loading, code splitting, and tree shaking for efficient web applications.",
                 
                 "Reliance Big Aims, June 2012 - November 2013 -> Completed a comprehensive course in 2D animation, learning techniques in character design, storyboarding, and animation production. Worked on multiple projects, including e-learning materials and animated shorts.",
 
@@ -58,8 +58,8 @@ const ResumeComp = () => {
                     Description: 'Git, Vite, Context API, reducers',
                 },
                 {
-                    'Skill Type': 'Design',
-                    Description: 'Responsive Design, CSS Flexbox, CSS Grid, Animation',
+                    'Skill Type': 'UI Design',
+                    Description: 'Adobe Photoshop, Adobe illustrator, Adobe InDesign, Adobe XD, UI/UX (Figma),Responsive Design, CSS Flexbox, CSS Grid, Animation',
                 },
                 {
                     'Skill Type': 'Additional',
@@ -85,27 +85,32 @@ const ResumeComp = () => {
             content: [
                 {
                     Duration: 'January  2014 to January 2015',
-                    Organization: 'SMC Media pvt. Ltd Hyderabad',
+                    Organization: 'SMC Media PVT.LTD Hyderabad',
                     Role: '2D Animator'
                 },
                 {
-                    Duration: 'January 2015 to November 2015',
-                    Organization: 'Code and Pixels Interactive Technologies Pvt.Ltd Hyderabad',
+                    Duration: 'February 2015 to October 2015 (Freelance(2015-2018))',
+                    Organization: 'Code and Pixels Interactive Technologies PVT.LTD Hyderabad',
                     Role: '2D Animator'
                 },
                 {
-                    Duration: 'November 2015 to August 2016',
+                    Duration: 'November 2015 to July 2016',
                     Organization: 'Reliance aims Hyderabad',
                     Role: '2D Animator'
                 },
                 {
-                    Duration: 'August 2016 to December 2017',
-                    Organization: 'Open Face Media Pvt.Ltd Hyderabad',
+                    Duration: 'August 2016 to November 2017',
+                    Organization: 'Open Face Media PVT.LTD Hyderabad',
                     Role: '2D Animator'
                 },
                 {
                     Duration: 'December 2017 to August 2018',
                     Organization: 'Bob Animation',
+                    Role: '3D Animator'
+                },
+                {
+                    Duration: 'September 2018 to March 2023',
+                    Organization: 'Shrisansa Animstudio PVT.LTD Hyderabad',
                     Role: '3D Animator'
                 }
             ]
