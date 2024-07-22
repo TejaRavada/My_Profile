@@ -7,7 +7,7 @@ const ResumeComp = () => {
 
     const tittle = [
         {
-            num: '+91 7207389550',
+            num: '+91 6305191836',
             head: 'Curriculum Vitae'
         },
         {
