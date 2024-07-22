@@ -120,36 +120,65 @@ const ResumeComp = () => {
     const Professional = [
         {
             tittle: 'Project: Beej Network',
-            desc: 'Designed and developed a responsive network platform using HTML and CSS, focusing on positioning and card styles.'
-        },
-        {
-            tittle: 'Project: Antique Cafe',
-            desc: 'Built a multi-feature website using HTML, CSS, JavaScript, and jQuery. Implemented parallax scrolling, smooth scrolling, and dynamic navigation bar changes.'
-        },
-        {
-            tittle: 'Project: Fashion Website',
-            desc: 'Created a multi-page, responsive fashion website using HTML, CSS, Bootstrap, and jQuery. Integrated a carousel slider and used various positioning techniques.'
-        },
-        {
-            tittle: 'Project: Interior Design Website',
-            desc: 'Developed a single-page interior design website using HTML and CSS. Ensured responsiveness with flexbox and smooth scrolling navigation.'
-        },
-        {
-            tittle: 'Project: Hotel Website',
-            desc: 'Designed a single-page, responsive hotel website using HTML, CSS, and Bootstrap. Included image and card styles, and smooth scrolling navigation.'
-        },
-        {
-            tittle: 'Project: Profile Project',
-            desc: 'Built a responsive single-page profile website using HTML, CSS, Bootstrap, and JavaScript. Features included a mobile navigation view, skills progress bar, form validation, and data fetching with a "Load more images" button.'
-        },
-        {
-            tittle: 'Project: Entertainment Website',
-            desc: 'Created a multi-page entertainment website using React. Utilized props, developed a slider component, and ensured responsiveness.'
+            desc: 'Designed and developed a responsive network platform using HTML and CSS, focusing on positioning and card styles.',
+            link: 'https://beejsimple.netlify.app'
         },
         {
             tittle: 'Project: Coffee Website',
-            desc: 'Developed a multi-page coffee website using React. Integrated props, a slider component, and a dropdown function for enhanced user interaction.'
+            desc: 'Developed a multi-page coffee website using HTML&CSS. Integrated props, a imgs, and a dropdown function and scrolling for enhanced user interaction.',
+            link: 'https://simpleecoffee.netlify.app'
+        },
+        {
+            tittle: 'Project: Antique Cafe',
+            desc: 'Built a multi-feature website using HTML, CSS, JavaScript, and jQuery. Implemented parallax scrolling, smooth scrolling, and dynamic navigation bar changes.',
+            link: 'https://cafesimplewebsite.netlify.app'
+        },
+        {
+            tittle: 'Project: Fashion Website',
+            desc: 'Created a multi-page, responsive fashion website using HTML, CSS, Bootstrap, and jQuery. Integrated a carousel slider and used various positioning techniques.',
+            link: 'https://fashionbootstrap.netlify.app'
+        },
+        {
+            tittle: 'Project: Interior Design Website',
+            desc: 'Developed a single-page interior design website using HTML and CSS. Ensured responsiveness with flexbox and smooth scrolling navigation.',
+            link: 'https://interiorbootstrap.netlify.app'
+        },
+        {
+            tittle: 'Project: Hotel Website',
+            desc: 'Designed a single-page, responsive hotel website using HTML, CSS, and Bootstrap. Included image and card styles, and smooth scrolling navigation.',
+            link: 'https://hotelbootstrap.netlify.app'
+        },
+        {
+            tittle: 'Project: Entertainment(react) Website',
+            desc: 'Created a multi-page entertainment website using React. Utilized props, developed a slider component, and ensured responsiveness.',
+            link: 'https://entertainmentreact.netlify.app'
+        },
+        {
+            tittle: 'Profile (react with redux) Project',
+            desc: 'Built a responsive Multi-page profile website using HTML, CSS, Bootstrap, JavaScript, and react with redux. Features included a mobile navigation view, skills progress bar, form validation, and data fetching with a "Load more images" button.',
+            link: 'https://tejaprofile.netlify.app'
+        },
+        {
+            tittle: 'Project: E- Commerece Fresh(react) Website',
+            desc: 'Developed using React, this e-commerce project features a robust "Add to Cart" and "Remove from Cart" functionality, allowing users to manage their shopping with ease. The application calculates the total cost with GST, ensuring transparency in pricing. It integrates seamlessly with an API for real-time product data, enhancing the shopping experience. The "Quick View" feature provides a snapshot of product details, helping customers make informed decisions quickly. This project showcases a dynamic and user-friendly interface, ideal for modern online shopping.',
+            link: ''
+        },
+        {
+            tittle: 'Project: Coffee(react) Website',
+            desc: 'I developed a multi-page Coffee website using JavaScript and API fetch for dynamic data integration. The project features multiple pages, including a detailed product view and an interactive menu. By fetching data from an external API, the site ensures real-time updates and accurate product listings. This project showcases my ability to integrate APIs, manage state across multiple pages, and create a seamless user experience, highlighting my front-end development skills and proficiency in dynamic content management.',
+            link: ''
+        },
+        {
+            tittle: 'Project: E-Commerece Pottery(react with redux) Website',
+            desc: 'This e-commerce project is developed using React, Redux, Bootstrap, MUI, React Icons, and React Slider to create a modern and efficient online shopping experience. The application features robust cart management, including "Add to Cart," "Remove from Cart," and "Move to Cart" functionalities, ensuring seamless user interaction. It accurately calculates the total cost with GST, providing transparent pricing for customers. Integration with a third-party API rendered deployment enables real-time product data updates, enhancing the shopping experience. The project utilizes Bootstrap and MUI for responsive and visually appealing design, while React Icons add intuitive and accessible icons throughout the interface. The React Slider component allows for an engaging and interactive product viewing experience. Additionally, the "Quick View" feature provides a snapshot of product details, enabling quick and informed decision-making for users. This project demonstrates effective state management, efficient data handling, and a user-friendly interface, making it ideal for modern e-commerce applications.',
+            link: ''
+        },
+        {
+            tittle: 'Fetch(java Script) Website',
+            desc: 'I am proficient in JavaScript and have experience creating multi-page applications. I have developed a robust login system with comprehensive validation checks. Additionally, I implemented a GST calculator to accurately compute tax for various transactions. My skills extend to fetching data from APIs to enhance functionality, such as adding new orders dynamically. Through these projects, I have honed my ability to manage user authentication, perform client-side validation, and integrate external data sources seamlessly. My work reflects a commitment to creating efficient, user-friendly web applications with a focus on real-world applications and usability.',
+            link: 'https://dress-in-fetch.netlify.app'
         }
+        
     ]
     const topices = [
         {
@@ -307,6 +336,7 @@ const ResumeComp = () => {
                                 <div className="project_topices">
                                     <div className="project_sub">
                                         <p className='w-100'>{item.desc}</p>
+                                        <p>{item.link}</p>
                                     </div>
                                 </div>
                             </div>
