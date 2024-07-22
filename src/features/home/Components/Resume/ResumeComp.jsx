@@ -334,7 +334,7 @@ const ResumeComp = () => {
                             <div key={index} className="project_Text">
                                 <h3>{item.tittle}</h3>
                                 <div className="project_topices">
-                                    <div className="project_subs">
+                                    <div className="project_sub project_subs">
                                         <p className='w-100'>{item.desc}</p>
                                         <p className='link'>{item.link}</p>
                                     </div>
