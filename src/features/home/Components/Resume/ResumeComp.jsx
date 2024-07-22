@@ -325,10 +325,10 @@ const ResumeComp = () => {
         {
             tittle: 'Address for Correspondence',
             text: [
-                'Comfort Avenue',
-                'Bandari Layout',
-                'Nizampet Village',
-                'Hyderabad - 500072',
+                'Comfort Avenue ',
+                'Bandari Layout ',
+                'Nizampet Village ',
+                'Hyderabad - 500072 ',
                 'Telengana.'
             ],
         },
