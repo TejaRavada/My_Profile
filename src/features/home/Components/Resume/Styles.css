@@ -225,6 +225,11 @@
     flex-direction: column;
 }
 
+.resume .resume_topices .project .project_Text .project_topices .project_sub .link
+{
+    color: #ff6;
+}
+
 .resume .resume_topices .project .project_Text .project_topices .project_sub h4{
     display: flex;
     font-family: "Salsa", cursive;
