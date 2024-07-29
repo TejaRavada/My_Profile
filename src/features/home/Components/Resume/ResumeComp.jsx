@@ -149,6 +149,11 @@ const ResumeComp = () => {
             link: 'https://hotelbootstrap.netlify.app'
         },
         {
+            tittle: 'Fetch(java Script) Website',
+            desc: 'I am proficient in JavaScript and have experience creating multi-page applications. I have developed a robust login system with comprehensive validation checks. Additionally, I implemented a GST calculator to accurately compute tax for various transactions. My skills extend to fetching data from APIs to enhance functionality, such as adding new orders dynamically. Through these projects, I have honed my ability to manage user authentication, perform client-side validation, and integrate external data sources seamlessly. My work reflects a commitment to creating efficient, user-friendly web applications with a focus on real-world applications and usability.',
+            link: 'https://dress-in-fetch.netlify.app'
+        },
+        {
             tittle: 'Project: Entertainment(react) Website',
             desc: 'Created a multi-page entertainment website using React. Utilized props, developed a slider component, and ensured responsiveness.',
             link: 'https://entertainmentreact.netlify.app'
@@ -161,22 +166,17 @@ const ResumeComp = () => {
         {
             tittle: 'Project: E- Commerece Fresh(react) Website',
             desc: 'Developed using React, this e-commerce project features a robust "Add to Cart" and "Remove from Cart" functionality, allowing users to manage their shopping with ease. The application calculates the total cost with GST, ensuring transparency in pricing. It integrates seamlessly with an API for real-time product data, enhancing the shopping experience. The "Quick View" feature provides a snapshot of product details, helping customers make informed decisions quickly. This project showcases a dynamic and user-friendly interface, ideal for modern online shopping.',
-            link: ''
+            link: 'https://freshappfriutss.netlify.app/'
         },
         {
             tittle: 'Project: Coffee(react) Website',
             desc: 'I developed a multi-page Coffee website using JavaScript and API fetch for dynamic data integration. The project features multiple pages, including a detailed product view and an interactive menu. By fetching data from an external API, the site ensures real-time updates and accurate product listings. This project showcases my ability to integrate APIs, manage state across multiple pages, and create a seamless user experience, highlighting my front-end development skills and proficiency in dynamic content management.',
-            link: ''
+            link: 'https://coffeecafesimple.netlify.app'
         },
         {
             tittle: 'Project: E-Commerece Pottery(react with redux) Website',
             desc: 'This e-commerce project is developed using React, Redux, Bootstrap, MUI, React Icons, and React Slider to create a modern and efficient online shopping experience. The application features robust cart management, including "Add to Cart," "Remove from Cart," and "Move to Cart" functionalities, ensuring seamless user interaction. It accurately calculates the total cost with GST, providing transparent pricing for customers. Integration with a third-party API rendered deployment enables real-time product data updates, enhancing the shopping experience. The project utilizes Bootstrap and MUI for responsive and visually appealing design, while React Icons add intuitive and accessible icons throughout the interface. The React Slider component allows for an engaging and interactive product viewing experience. Additionally, the "Quick View" feature provides a snapshot of product details, enabling quick and informed decision-making for users. This project demonstrates effective state management, efficient data handling, and a user-friendly interface, making it ideal for modern e-commerce applications.',
-            link: ''
-        },
-        {
-            tittle: 'Fetch(java Script) Website',
-            desc: 'I am proficient in JavaScript and have experience creating multi-page applications. I have developed a robust login system with comprehensive validation checks. Additionally, I implemented a GST calculator to accurately compute tax for various transactions. My skills extend to fetching data from APIs to enhance functionality, such as adding new orders dynamically. Through these projects, I have honed my ability to manage user authentication, perform client-side validation, and integrate external data sources seamlessly. My work reflects a commitment to creating efficient, user-friendly web applications with a focus on real-world applications and usability.',
-            link: 'https://dress-in-fetch.netlify.app'
+            link: 'https://tejapottery.netlify.app'
         }
         
     ]
