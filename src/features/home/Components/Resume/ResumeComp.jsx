@@ -427,7 +427,7 @@ const ResumeComp = () => {
                                 <div className="project_topices">
                                     <div className="project_sub project_subs">
                                         <p className='w-100'>{item.desc}</p>
-                                        <p className='link'><Link to={item.link} target="_blank" rel="noopener noreferrer"><p className='link'>View Link</p></Link></p>
+                                        <p className='link'><Link to={item.link} target="_blank" rel="noopener noreferrer" className='ankorlink'>View Link</Link></p>
                                     </div>
                                 </div>
                             </div>
