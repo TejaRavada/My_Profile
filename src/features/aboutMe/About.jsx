@@ -100,13 +100,18 @@ const About = () => {
 
           <div className="info_Text">
 
-            <p>I began my professional journey in the field of 2D animation, where I accumulated eight years of diverse experience. My roles included working as a 2D animator, e-learning specialist, background artist, character designer, and Harmony specialist, which encompassed Harmony rigging. Additionally, I gained expertise in 3D modeling and 3D rigging. This multifaceted background allowed me to develop a strong foundation in both technical and creative aspects of animation and design. </p>
+            <p>I began my professional journey in the field of 2D animation, where I accumulated six years of diverse experience. My roles included working as a 2D animator, e-learning specialist, background artist, character designer, and Harmony specialist, which encompassed Harmony rigging. Additionally, I gained expertise in 3D modeling and 3D rigging. This multifaceted background allowed me to develop a strong foundation in both technical and creative aspects of animation and design. </p>
 
-            <p>After eight years in animation, I decided to transition to frontend development, driven by my passion for technology and web development. I focused on mastering React, Bootstrap, and JavaScript, which are essential tools for modern web development. During the first two years of my new career, I concentrated on developing components and styling, as well as implementing various React and JavaScript functions. This period was crucial in building my foundational skills and understanding the intricacies of frontend development.</p>
+            <p>After six years in animation, I decided to transition to frontend development, driven by my passion for technology and web development. I focused on mastering React, Bootstrap, and JavaScript, which are essential tools for modern web development. During the first two years of my new career, I concentrated on developing components and styling, as well as implementing various React and JavaScript functions. This period was crucial in building my foundational skills and understanding the intricacies of frontend development.</p>
 
-            <p>For the past nine months, I have been working extensively with Redux and React. This phase of my career has allowed me to deepen my expertise in state management and advanced React functionalities. I have been involved in creating dynamic and responsive web applications, ensuring seamless user experiences through efficient state management and component interaction.</p>
+            <p>Passionate UI/UX designer and frontend developer with 5 years of experience in creating visually appealing and user-friendly websites and applications. Proficient in HTML, CSS, JavaScript, React, and design tools like Figma and Adobe Illustrator. Adept at translating complex requirements into user-centered designs and functional web interfaces. Transitioned to UI/UX design and front-end development after a 7-year career in 2D animation, bringing a unique blend of creative design skills and technical expertise to the role. Recently learned full-stack Java development to expand my technical skill set.</p>
 
-            <p>My diverse background in animation and frontend development equips me with a unique perspective and a versatile skill set. I am excited to continue growing in the field of frontend development, leveraging my creative and technical abilities to contribute to innovative projects and deliver exceptional results.</p>
+            <p>UI/UX Design and Frontend Development: Developed and maintained responsive web applications using modern technologies. Collaborated with UI/UX designers to create seamless user experiences.</p>
+
+            <p>Animation and E-Learning Projects: Created, designed, and delivered products in animation, including e-learning projects for secondary schooling and biopics such as 'Bio pic of Sri Jayatheertharu' and 'Metro LTD,' as well as nursery rhymes.</p>
+            
+            <p>Adaptability and Continuous Learning: Self-motivated, creative, and a quick learner. Willing to adapt to new challenges and technologies, continuously expanding knowledge in both design and development.</p>
+
           </div>
 
         </div>

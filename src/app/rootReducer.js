@@ -5,7 +5,7 @@ import {
     FETCH_PROJECT_DATA_REQUEST, FETCH_PROJECT_DATA_SUCCESS, FETCH_PROJECT_DATA_FAILURE,
     FETCH_EDUCATION_DATA_REQUEST, FETCH_EDUCATION_DATA_SUCCESS, FETCH_EDUCATION_DATA_FAILURE,
     FETCH_EXPERIENCE_DATA_REQUEST, FETCH_EXPERIENCE_DATA_SUCCESS, FETCH_EXPERIENCE_DATA_FAILURE,
-    SCROLL_TO_TOP, OPEN_MODAL, CLOSE_MODAL, DOWNLOAD_WORD_FILE
+    SCROLL_TO_TOP, OPEN_MODAL, CLOSE_MODAL, DOWNLOAD_PDF_FILE
 } from "./actions";
 
 const initialState = {
@@ -116,7 +116,7 @@ const rootReducer = (state = initialState, action) => {
                 ...state,
                 modalIsOpen: false,
             };
-        case DOWNLOAD_WORD_FILE:
+        case DOWNLOAD_PDF_FILE:
             return {
                 ...state,
                 downloadStatus: 'completed',

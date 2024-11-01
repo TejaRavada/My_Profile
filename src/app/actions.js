@@ -2,7 +2,8 @@
 import { saveAs } from 'file-saver';
 
 // Action Type
-export const DOWNLOAD_WORD_FILE = 'DOWNLOAD_WORD_FILE';
+// export const DOWNLOAD_WORD_FILE = 'DOWNLOAD_WORD_FILE';
+export const DOWNLOAD_PDF_FILE = 'DOWNLOAD_PDF_FILE';
 export const SET_SCROLL_PROGRESS = 'SET_SCROLL_PROGRESS';
 export const SET_TEXT = 'SET_TEXT';
 export const SET_LINE_HEIGHT = 'SET_LINE_HEIGHT';
@@ -101,12 +102,12 @@ export const fetchExperienceData = () => fetchData(
 // Action Creator
 export const downloadWordFile = () => {
     return async (dispatch) => {
-        const response = await fetch('/TejaResume.docx');
+        const response = await fetch('/TejaRavada.pdf');
         const blob = await response.blob();
-        saveAs(blob, 'TejaResume.docx');
+        saveAs(blob, 'TejaRavada.pdf');
 
         dispatch({
-            type: DOWNLOAD_WORD_FILE,
+            type: DOWNLOAD_PDF_FILE,
         });
     };
 };

@@ -221,9 +221,57 @@
     justify-content: flex-start;
     gap: 10px;
     width: 100%;
-    padding: 5px 0px;
-    
+    padding: 5px 0px; 
 }
+.resume .resume_topices .project .project_Text .project_topices .project_sub .project_desc ul
+{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume .resume_topices .project .project_Text .project_topices .project_sub .project_desc ul li{
+    /* margin-left: 20px; */
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.project_desc ul .project_sub1
+{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project_desc ul .project_sub1 .subsection
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project_desc ul .project_sub1 .subsection .head
+{
+    display: flex;
+    gap: 10px;
+}
+
+.project_desc ul .project_sub1 .subsection .highlight
+{
+    color: #ff6;
+    text-decoration: underline dotted rgb(255, 0, 102);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
+.project_desc ul .project_sub1 .subsection p
+{
+    margin-left: 50px;
+}
+
 .resume .resume_topices .project .project_Text .project_topices .project_subs
 {
     flex-direction: column;
@@ -336,4 +384,9 @@
 .ankorlink
 {
     color: #ff6
+}
+
+.itemLink
+{
+    color: rgb(105, 225, 255)
 }

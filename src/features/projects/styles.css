@@ -128,8 +128,8 @@
 }
 
 .cards .card img {
-    width: 100%;
-    height: 350px;
+    width: 300px !important;
+    height: 150px !important;
     object-fit: cover;
 }
 
