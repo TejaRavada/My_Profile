@@ -24,7 +24,7 @@ const About = () => {
               <h4>Who I am</h4>
               <p>I began my career in 2D animation, spending eight years working as a 2D animator, e-learning specialist, background artist, character designer, and Harmony specialist, including Harmony rigging. Additionally, I gained experience in 3D modeling and 3D rigging. This diverse experience allowed me to develop a strong foundation in both creative and technical aspects. </p>
 
-              <p>After eight years, I transitioned to frontend development, focusing on React, Bootstrap, and JavaScript. For the first two years, I concentrated on components and styling, as well as implementing various React and JavaScript functions. This period was essential in building my foundational skills and understanding the intricacies of frontend development.</p>
+              <p>After eight years, I transitioned to frontend development, focusing on React, Bootstrap, and JavaScript. For the first Five years, I concentrated on components and styling, as well as implementing various React and JavaScript functions. This period was essential in building my foundational skills and understanding the intricacies of frontend development.</p>
 
               <p>For the past nine months, I have been working extensively with Redux and React, deepening my expertise in state management and advanced React functionalities. My unique background in animation and frontend development equips me with a versatile skill set and a creative perspective, enabling me to contribute effectively to innovative projects.</p>
 
