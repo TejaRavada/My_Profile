@@ -21,7 +21,7 @@ const ResumeComp = () => {
             type: 'description',
             heading: 'SUMMARY',
             description: [
-                "Passionate UI/UX designer and frontend developer with 5 years of experience in creating visually appealing and user-friendly websites and applications. Proficient in HTML, CSS, JavaScript, React, and design tools like Figma and Adobe Illustrator. Adept at translating complex requirements into user-centered designs and functional web interfaces. Transitioned to UI/UX design and front-end development after a 7-year career in 2D animation, bringing a unique blend of creative design skills and technical expertise to the role. Recently learned full-stack Java development to expand my technical skill set.",
+                "Passionate UI/UX designer and frontend developer with 3 years of experience in creating visually appealing and user-friendly websites and applications. Proficient in HTML, CSS, JavaScript, React, and design tools like Figma and Adobe Illustrator. Adept at translating complex requirements into user-centered designs and functional web interfaces. Transitioned to UI/UX design and front-end development after a 9-year career in 2D animation, bringing a unique blend of creative design skills and technical expertise to the role. Recently learned full-stack Java development to expand my technical skill set.",
                 "UI/UX Design and Frontend Development: Developed and maintained responsive web applications using modern technologies. Collaborated with UI/UX designers to create seamless user experiences.",
                 "Animation and E-Learning Projects: Created, designed, and delivered products in animation, including e-learning projects for secondary schooling and biopics such as 'Bio pic of Sri Jayatheertharu' and 'Metro LTD,' as well as nursery rhymes.",
                 "Adaptability and Continuous Learning: Self-motivated, creative, and a quick learner. Willing to adapt to new challenges and technologies, continuously expanding knowledge in both design and development."
@@ -115,6 +115,11 @@ const ResumeComp = () => {
                     Duration: 'September 2018 to March 2023',
                     Organization: 'Shrisansa Animstudio PVT.LTD Hyderabad',
                     Role: ' 2D Animator, UI/UX Design, Front-End Developer'
+                },
+                {
+                    Duration: 'April 2023 to till date',
+                    Organization: 'Freelance',
+                    Role: ' UI/UX Design, Front-End Developer'
                 }
             ]
         }
@@ -302,13 +307,13 @@ const ResumeComp = () => {
             sub_heading2: 'Clients',
             sub_Text2: 'sansaminifood.com',
             sub_heading3: 'Duration',
-            sub_Text3: '4 months',
+            sub_Text3: '9 months',
             sub_heading4: 'Team size',
             sub_Text4: '6',
             sub_heading5: 'Created animations',
             sub_Text5: 'Created Web design (UI design & Front-end developer)',
             sub_heading6: 'Technology Skills',
-            sub_Text6: 'Adobe XD, Figma, Html&Css, Javascript, bootstrap, photoshop, react',
+            sub_Text6: 'Built with React.js, using Context API and reducers for state management.  Styled with CSS and Bootstrap for a clean, responsive design.',
         },
         {
             sub_head: 'deliciou.sfoody.com (UI Design & Front-end developer)',
@@ -330,13 +335,13 @@ const ResumeComp = () => {
             sub_heading2: 'Clients',
             sub_Text2: 'deliciou.sfoody.com',
             sub_heading3: 'Duration',
-            sub_Text3: '6 months',
+            sub_Text3: '7 months',
             sub_heading4: 'Team size',
-            sub_Text4: '6',
+            sub_Text4: '8',
             sub_heading5: 'Created animations',
             sub_Text5: 'Created Web design (UI design & Front-end developer)',
             sub_heading6: 'Technology Skills',
-            sub_Text6: 'Adobe XD, Figma, Html&Css, Javascript, bootstrap, photoshop, react',
+            sub_Text6: 'Adobe XD, Figma, Built with React.js, using Context API and reducers for state management. Styled with CSS and Bootstrap for a clean, responsive design.',
         },
         {
             sub_head: 'webseriesurl.com (UI Design & Front-end developer)',
@@ -355,7 +360,7 @@ const ResumeComp = () => {
             sub_heading2: 'Clients',
             sub_Text2: 'webseriesurl.com',
             sub_heading3: 'Duration',
-            sub_Text3: '5 months',
+            sub_Text3: '8 months',
             sub_heading4: 'Team size',
             sub_Text4: '6',
             sub_heading5: 'Created animations',
@@ -379,7 +384,7 @@ const ResumeComp = () => {
             sub_heading2: 'Clients',
             sub_Text2: 'techinfoadvice.com',
             sub_heading3: 'Duration',
-            sub_Text3: '6 months',
+            sub_Text3: '8 months',
             sub_heading4: 'Team size',
             sub_Text4: '6',
             sub_heading5: 'Created animations',
